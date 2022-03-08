@@ -1,0 +1,139 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #646464;
+}
+.slogan {
+    display: none;
+}
+#menu ul li a {
+    font-size: 14px;
+    color: white;
+    padding: 0 16px 0 0;
+}
+#menu ul li a:hover {
+    font-weight: bold;
+}
+.trangchu {
+    font-size: 14px;
+    color: white;
+}
+.trangchu:hover {
+    font-weight: bold;
+}
+.title h1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+.line {
+    height: 0px;
+    width: 40%;
+    border: 1px solid #252525;
+}
+.rec-small {
+    width: 10px;
+    height: 10px;
+    border: 1px solid red;
+    transform: rotate(45deg);
+}
+.rec-big {
+    width: 15px;
+    height: 15px;
+    border: 1px solid red;
+    transform: rotate(45deg);
+}
+.intro .content p {
+    line-height: 28px;
+}
+.program .content div a h1 {
+    color: #bb141a;
+    font-size: 18px;
+    font-weight: bold;
+}
+.program .content div a:hover {
+    text-decoration-color: #bb141a;
+}
+.program .content div p {
+    font-size: 16px;
+}
+.bg-student {
+    background-image: url(../images/bg_goc_hv.png);
+    background-size: cover;
+}
+.content-student {
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 10px;
+}
+.content-student p {
+    line-height: 30px;
+    font-size: 16px;
+}
+.quote {
+    color: #bb141a;
+    font-weight: bold;
+}
+.white-line {
+    height: 0;
+    border: 1px solid white;
+}
+.address i {
+    font-size: 32px;
+    color: white;
+}
+.address div p {
+    font-size: 16px;
+    color: white;
+    margin-bottom: 0;
+}
+.map {
+    display: none;
+}
+.input-group-text {
+    width: 100px;
+}
+.lb {
+    font-weight: bold;
+    font-size: 18px;
+}
+.student {
+    position: relative;
+    height: 260px;
+}
+.student-img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+@media screen and (min-width: 1200px) {
+    
+}
+@media screen and (max-width: 992px) {
+    .program .content div h1 {
+        font-size: 24px;
+    }
+    .program .content div p {
+        font-size: 18px;
+    }
+}
+@media screen and (max-width: 1200px) {
+    
+}
+@media screen and (max-width: 992px) {
+    .student-img {
+        top: 120px;
+    }
+    .content-student {
+        margin-top: 250px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .program .content div h1 {
+        font-size: 24px;
+    }
+    .program .content div p {
+        font-size: 18px;
+    }
+}
+@media screen and (max-width: 578px) {
+    
+}

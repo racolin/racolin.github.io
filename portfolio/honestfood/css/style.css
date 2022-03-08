@@ -1,0 +1,327 @@
+@font-face {
+	font-family: Italianno;
+	src: url("../fonts/Italianno-Regular-OTF.otf");
+}
+@font-face {
+	font-family: Merriweather;
+	src: url("../fonts/MerriweatherSans-Regular.otf");
+}
+@font-face {
+	font-family: Merriweather-Bold;
+	src: url("../fonts/MerriweatherSans-Bold.otf");
+}
+body {
+    font-family: Merriweather;
+}
+.logo:hover {
+    text-decoration: none;
+}
+.h-logo span {
+    font-family: Italianno;
+    font-size: 72px;
+    color: #efa52c;
+}
+.h-logo , .p-logo {
+    margin: 0;
+    padding: 0;
+}
+.p-logo {
+    font-size: 10px;
+    color: #efa52c;
+    margin-top: -30px;
+    margin-left: 30px;
+    letter-spacing: 3px;
+}
+.h-logo {
+    font-size: 18px;
+    color: white;
+    font-family: Merriweather-Bold;
+}
+#menu ul li a {
+    color: #fff;
+    font-size: 16px;
+}
+.menu {
+    background-color: rgba(0, 0, 0, 0.85);
+}
+.khung {
+    border: 2px solid #fff; 
+}
+.bg-welcome {
+    background-image: url(../images/banner.jpg);
+    padding: 200px 0;
+}
+.title h1 {
+    font-size: 72px;
+    font-family: Italianno;
+    color: #efa52c;
+}
+.title h3 {
+    font-size: 43px;
+    color: white;
+}
+.title p {
+    font-size: 12px;
+    color: #efa52c;
+    letter-spacing: 3px;
+}
+.under-title {
+    width: 300px;
+}
+.under-title img {
+    width: 20%;
+}
+.line {
+    width: 40%;
+    border: 2px solid white;
+    height: 0px;
+    margin-top: 14px;
+}
+.title-black h1 {
+    font-size: 72px;
+    color: black;
+    font-family: Italianno;
+}
+.title-black .under-title .line {
+    border: 2px solid black;
+}
+.title-black .under-title {
+    margin-top: -25px;
+}
+.title-black p {
+    color: #777777;
+    font-size: 14px;
+    line-height: 24px;
+}
+.title-black button {
+    margin-bottom: 50px;
+}
+
+.icon_chefs {
+    width: 120px;
+    height: 120px;
+    box-sizing: border-box;
+    border: 3px solid #efa52c;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+.img_icon {
+    width: 65px;
+    height: 82px;
+    margin: 15px auto 23px auto;
+}
+.content {
+    width: 255px;
+    margin: 0;
+    text-align: center;
+    float: left;
+}
+.content h1 {
+    font-size: 22px;
+    color: #efa52c;
+    font-family: merriweather;
+    margin: 15px 0;
+}
+.content p {
+    color: #777777;
+    font-size: 14;
+    line-height: 24px;
+}
+
+.chef-item {
+    color: #fff;
+    width: 256px;
+    position: relative;
+    overflow: hidden;
+}
+.chef-item:hover .chef-content {
+    top: 0;
+}
+.chef-content h3 {
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 1px;
+}
+.chef-line {
+    border-bottom: 1px solid #efa52c;
+    height: 0;
+}
+.chef-content {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 330px;
+    transition: all 1.2s ease-out;
+}
+.chef-content p {
+    font-size: 13px;
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+.chef-name h3 {
+    font-size: 22px;
+    color: #efa52c;
+}
+.bg-share {
+    background-image: url(../images/bottom.jpg);
+    color: #fff;
+}
+.bg-share .under-title {
+    margin-top: -20px;
+}
+.share-title {
+    font-size: 72px;
+}
+.share-content {
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 36px;
+}
+.font-22 {
+    font-size: 22px;
+}
+.contact-us-content p {
+    font-size: 14px;
+    color: #777777;
+/*    letter-spacing: 1px;*/
+    line-height: 24px;
+}
+.our-info-content .ourinfo {
+    font-size: 36px;
+    color: #efa52c;
+    margin-top: 50px;
+}
+.our-info-content .row .col-6 h3 {
+    font-size: 22px;
+    line-height: 24px;
+}
+.our-info-content p {
+    font-size: 14px;
+    line-height: 24px;
+    color: #777;
+}
+.contact .input-group input {
+	height: 40px;
+	position: absolute;
+	width: 75%;
+	right: 0;
+	z-index: 0;
+}
+.lb {
+	line-height: 40px;
+	margin: 0;
+	position: absolute;
+	z-index: 1;
+	left: 0;
+	background-color: black;
+	width: 100%;
+	transition: all 1.2s ease-out; 
+	color: white;
+}
+.contact .input-group:hover .lb {
+	border-radius: 5px 0 0 5px;
+	width: 25%;
+	background-color: #FF9600;
+}
+.contact button {
+	background-color: #FF9600;
+	width: 100px;
+}
+.contact .inputgroup {
+	position: relative;
+}
+.our-info-content .row .col-6 p span, .our-info-content .row .col-6 h3 {
+    color: #efa52c;
+}
+.where {
+    color: #fff;
+    font-size: 18px;
+}
+.testi-img {
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: -3px -3px 5px black;
+}
+.cap {
+    font-size: 14px;
+    color: #777777;
+    line-height: 24px;
+    letter-spacing: 1px;
+}
+.avatar p {
+    font-family: Italianno;
+    color: #efa52c;
+    font-size: 20px;
+    line-height: 24px;
+}
+.tron li {
+    width: 10px;
+    height: 10px;
+    background-color: #efa52c;
+    border-radius: 50%;
+}
+.img-left {
+    height: 520px;
+    overflow: hidden;
+    background-image: url(../images/banner.jpg);
+    background-size: cover;
+}
+.img-left img {
+    height: 100%;
+    object-fit: cover;
+}
+.hov:hover {
+    background-color: #efa52c;
+}
+.reservation {
+    background-image: url(../images/reservation.jpg);
+}
+.res-input input {
+    width: 100%;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding-left: 15px;
+    font-size: 28px;
+}
+.res-input label {
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+}
+.res-input label i {
+    color: #FF9600;
+}
+.btn-res {
+    width: 255px;
+    height: 50px;
+    border: none;
+    background-color: #FF9600;
+    font-size: 22px;
+    color: white;
+}
+.btn-res:hover {
+    color: #FF9600;
+    background-color: white;
+}
+@media screen and (min-width: 1201px) {
+
+}
+@media screen and (max-width: 1200px) {
+
+}
+@media screen and (max-width: 992px) {
+    .res-hide {
+        display: none;
+    }
+}
+@media screen and (max-width: 768px) {
+    
+}
+@media screen and (max-width: 576px) {
+    
+}

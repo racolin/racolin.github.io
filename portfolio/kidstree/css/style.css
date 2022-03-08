@@ -1,0 +1,123 @@
+@font-face {
+    font-family: Roboto-Bold;
+    src: url(../fonts/RobotoSlab-Bold.ttf);
+}
+@font-face {
+    font-family: Roboto-Regular;
+    src: url(../fonts/RobotoSlab-Regular.ttf);
+}
+@font-face {
+    font-family: Roboto-Light;
+    src: url(../fonts/RobotoSlab-Light.ttf);
+}
+body {
+    font-family: Roboto-Regular;
+    color: black;
+}
+.search-icon {
+    background-color: #3EB2CF;
+}
+.bg-blue {
+    background-color: #3EB2CF;
+}
+.container .navbar #menu .navbar-nav .nav-item .menu-a, .navbar-dark .navbar-brand.home {
+    color: white;
+    padding: 0;
+    font-size: 18px;
+}
+.container .navbar #menu .navbar-nav .nav-item .menu-a:hover {
+    color: #FEC20B;
+}
+.navbar-dark .navbar-brand.home:hover {
+    color: #FEC20B;
+}
+.about {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.btn-learnmore {
+    background-color: none;
+    border: 3px solid #3EB2CF;
+    color: #3EB2CF;
+    border-radius: 20px;
+    font-size: 18px;
+}
+.btn-learnmore:hover {
+    background-color: #3EB2CF;
+    color: white;
+}
+.about-content h1 {
+    font-size: 50px;
+    color: #3EB2CF;
+    font-weight: bold;
+}
+.about-content h1 span {
+    color: #FEC20B;
+}
+.about-content p {
+    font-size: 15px;
+    line-height: 30px;
+    color: #888;
+    
+}
+.programs {
+    background-color: #3EB2CF;
+}
+.title h1 {
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+}
+.title p {
+    color: white;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-family: Roboto-Light;
+}
+.time-pro {
+    font-size: 14px;
+    font-style: italic;
+    color: #888;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.title-pro {
+    font-size: 18px;
+    color: #FEC20B;
+}
+.content-pro {
+    font-size: 14;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+.icon-pro {
+    color: #3EB2CF;
+}
+.icon-pro i {
+    padding-right: 15px;
+}
+.content p{
+    margin: 0;
+    margin-top: 10px;
+}
+.title .gallery-title {
+    color: #FEC20B;
+}
+.gallery .row div {
+    margin: 15px 0;
+}
+.footer-content {
+    font-size: 14px;
+    font-family: Roboto-Light;
+    color: white;   
+    line-height: 30px;
+}
+.icon-footer {
+    background-color: white;
+    width: 35px;
+    height: 35px;
+    border-radius: 5px;
+}
+.icon-footer i {
+    color: #3EB2CF;
+    line-height: 35px;
+    font-size: 24px;
+}
