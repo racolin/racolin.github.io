@@ -15,7 +15,7 @@ waitfinish = 10;
 wait = 300;
 amount_square = 25;
 max_square = 120;
-max_left = 100;
+max_left = 50;
 max_delay = 15;
 max_run = 40;
 min_run = 10; 
@@ -79,10 +79,12 @@ square.forEach(element => {
     child.setAttribute("style", property);
     document.getElementById("circles").appendChild(child);
 });
-listID_X_left = ['html', 'js', 'teamwork', 'searches', 'pts', 'edu-pic', 'goals', 'certificate', 'volunteer', 'exp'];
-listID_X_right = ['css', 'jquery', 'doc', 'english', 'bs', 'edu-content', 'hobbies', 'award', 'study', 'program'];
-listID_Y_top = ['title-skills', 'edu', 'me','port-title'];
-listID_Y_top_little = ['port1', 'port2', 'port3', 'port4', 'port5', 'port6', 'port7', 'port8', 'port9'];
+listID_X_left = ['html', 'js', 'teamwork', 'searches', 'pts', 'edu-pic', 'goals', 'award', 'volunteer'];
+listID_X_right = ['css', 'jquery', 'doc', 'english', 'bs', 'edu-content', 'hobbies', 'study', 'program'];
+
+
+listID_Y_top = ['title-skills', 'edu', 'me','profile-title'];
+listID_Y_top_little = ['profile1', 'profile2', 'profile3', 'profile4', 'profile5', 'profile6', 'profile7', 'profile8', 'profile9'];
 function scr() {
     handle_temp(listID_X_left, "transform: translate(0); opacity: 1;", "transform: translate(-200px); opacity: 0;");
     handle_temp(listID_X_right, "transform: translate(0); opacity: 1;", "transform: translate(200px); opacity: 0;");

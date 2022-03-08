@@ -340,31 +340,31 @@ body {
 } 
 
 .bord1 {
-    background-image: url(../images/portfolio1.jpg);
+    background-image: url(../images/profile1.jpg);
 }
 .bord2 {
-    background-image: url(../images/portfolio2.jpg);
+    background-image: url(../images/profile2.jpg);
 }
 .bord3 {
-    background-image: url(../images/portfolio3.jpg);
+    background-image: url(../images/profile3.jpg);
 }
 .bord4 {
-    background-image: url(../images/portfolio4.jpg);
+    background-image: url(../images/profile4.jpg);
 }
 .bord5 {
-    background-image: url(../images/portfolio5.jpg);
+    background-image: url(../images/profile5.jpg);
 }
 .bord6 {
-    background-image: url(../images/portfolio6.jpg);
+    background-image: url(../images/profile6.jpg);
 }
 .bord7 {
-    background-image: url(../images/portfolio7.jpg);
+    background-image: url(../images/profile7.jpg);
 }
 .bord8 {
-    background-image: url(../images/portfolio1.jpg);
+    background-image: url(../images/profile1.jpg);
 }
 .bord9 {
-    background-image: url(../images/portfolio2.jpg);
+    background-image: url(../images/profile2.jpg);
 }
 .bord {
     position: relative;
@@ -394,10 +394,10 @@ body {
     background-color: rgba(0, 0, 0, 0);
     transition: all 0.2s ease-out;
 }
-.portfolio-item a {
+.profile-item a {
     text-decoration: none;
 }
-#portfolio {
+#profile {
     background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
     background-size: 400% 100%;
     animation: bg-linear 10s ease-in-out infinite alternate-reverse;
@@ -559,7 +559,7 @@ label {
 #title-skills, #html, #css, #js, #bs, #pts, #jquery, #teamwork,
 #english, #searches, #doc, #edu, #edu-content, #edu-pic, #me, 
 #goals, #hobbies, #award, #exp, #study, #volunteer, #program,
-#certificate, #port-title, #port1, #port2, #port3, #port4, #port5
-, #port6, #port7, #port8, #port9  {
+#certificate, #profile-title, #profile1, #profile2, #profile3, #profile4, #profile5
+, #profile6, #profile7, #profile8, #profile9  {
     transition: all 1s ease-out;
 }
