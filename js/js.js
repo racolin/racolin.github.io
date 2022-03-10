@@ -15,7 +15,7 @@ waitfinish = 10;
 wait = 300;
 amount_square = 25;
 max_square = 120;
-max_left = 50;
+max_left = 95;
 max_delay = 15;
 max_run = 40;
 min_run = 10; 
@@ -79,12 +79,13 @@ square.forEach(element => {
     child.setAttribute("style", property);
     document.getElementById("circles").appendChild(child);
 });
-listID_X_left = ['html', 'js', 'teamwork', 'searches', 'pts', 'edu-pic', 'goals', 'award', 'volunteer'];
-listID_X_right = ['css', 'jquery', 'doc', 'english', 'bs', 'edu-content', 'hobbies', 'study', 'program'];
+listID_X_left = ['php', 'html-css-js', 'pts', 'teamwork', 'searches', 'edu-pic', 'goals', 'award', 'volunteer'];
+listID_X_right = ['python', 'bs', 'jquery', 'english', 'doc', 'edu-content', 'hobbies', 'study', 'program'];
 
 
-listID_Y_top = ['title-skills', 'edu', 'me','profile-title'];
-listID_Y_top_little = ['profile1', 'profile2', 'profile3', 'profile4', 'profile5', 'profile6', 'profile7', 'profile8', 'profile9'];
+listID_Y_top = ['title-skills', 'edu', 'me','project-title'];
+listID_Y_top_little = ['s_project1', 's_project2', 's_project3', 's_project4', 's_project5', 's_project6', 's_project7', 
+'s_project8', 's_project9', 'd_project1', 'd_project2', 's_projects_title', 'd_projects_title', 'o_projects_title'];
 function scr() {
     handle_temp(listID_X_left, "transform: translate(0); opacity: 1;", "transform: translate(-200px); opacity: 0;");
     handle_temp(listID_X_right, "transform: translate(0); opacity: 1;", "transform: translate(200px); opacity: 0;");

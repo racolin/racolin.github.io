@@ -209,8 +209,13 @@ body {
     overflow: hidden;
 }
 
+.web_title {
+    margin: 30px;
+    font-weight: 600;
+}
+
 .title {
-    padding: 60px 0;
+    padding: 40px 0;
 }
 .title h1 {
     font-size: 65px;
@@ -302,23 +307,20 @@ body {
 .fa-html5 {
     color: #f1662a;
 }
-.html .progress .progress-bar {
-    background-color: #f1662a;
+.html-css-js .progress .progress-bar {
+    background-color: #353535;
 }
 .fa-search {
     color: #1db6e7;
 }
-.css .progress .progress-bar {
-    background-color: #1db6e7;
-}
 .fa-newspaper-o {
     color: #899f50;
 }
-.css .progress .progress-bar {
-    background-color: #66BFE5;
+.php .progress .progress-bar {
+    background-color: #462bab;
 } 
-.javascript .progress .progress-bar {
-    background-color: #F0DB4F;
+.python .progress .progress-bar {
+    background-color: #a18508;
 } 
 .bootstrap .progress .progress-bar {
     background-color: #7541C2;
@@ -335,36 +337,39 @@ body {
 .english .progress .progress-bar {
     background-color: black;
 } 
+.documents .progress .progress-bar {
+    background-color: #50782b;
+} 
 .searches .progress .progress-bar {
     background-color: #1DB6E7;
 } 
 
 .bord1 {
-    background-image: url(../images/profile1.jpg);
+    background-image: url(../images/projects1.jpg);
 }
 .bord2 {
-    background-image: url(../images/profile2.jpg);
+    background-image: url(../images/projects2.jpg);
 }
 .bord3 {
-    background-image: url(../images/profile3.jpg);
+    background-image: url(../images/projects3.jpg);
 }
 .bord4 {
-    background-image: url(../images/profile4.jpg);
+    background-image: url(../images/projects4.jpg);
 }
 .bord5 {
-    background-image: url(../images/profile5.jpg);
+    background-image: url(../images/projects5.jpg);
 }
 .bord6 {
-    background-image: url(../images/profile6.jpg);
+    background-image: url(../images/projects6.jpg);
 }
 .bord7 {
-    background-image: url(../images/profile7.jpg);
+    background-image: url(../images/projects7.jpg);
 }
 .bord8 {
-    background-image: url(../images/profile1.jpg);
+    background-image: url(../images/projects1.jpg);
 }
 .bord9 {
-    background-image: url(../images/profile2.jpg);
+    background-image: url(../images/projects2.jpg);
 }
 .bord {
     position: relative;
@@ -394,10 +399,10 @@ body {
     background-color: rgba(0, 0, 0, 0);
     transition: all 0.2s ease-out;
 }
-.profile-item a {
+.projects-item a {
     text-decoration: none;
 }
-#profile {
+#projects {
     background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
     background-size: 400% 100%;
     animation: bg-linear 10s ease-in-out infinite alternate-reverse;
@@ -455,31 +460,6 @@ label {
     font-size: 18px;
     letter-spacing: 2px;
     padding: 5px 0;
-}
-.footer-icon .col-3 .icon {
-    width: 65px;
-}
-.footer-icon .col-3 i {
-    font-size: 36px;
-    color: #fff;
-    line-height: 65px;
-}
-.footer-icon .col-3 .fb {
-    background-color: #336eb1;
-    border-radius: 5px;
-}
-.footer-icon .col-3 .ins {
-    background-color: #336eb1;
-    border-radius: 5px;
-    background-image: conic-gradient(#7635B0 45deg, #DB3175 135deg, #F6BD55 225deg, #7635B0 315deg);
-}
-.footer-icon .col-3 .in {
-    background-color: #0074b2;
-    border-radius: 5px;
-}
-.footer-icon .col-3 .tw {
-    background-color: #1da1f2;
-    border-radius: 5px;
 }
 .circle-img {
     width: 120px;
@@ -556,10 +536,10 @@ label {
         width: 3px;
     }
 }
-#title-skills, #html, #css, #js, #bs, #pts, #jquery, #teamwork,
+#title-skills, #html-css-js, #php, #python, #bs, #pts, #jquery, #teamwork,
 #english, #searches, #doc, #edu, #edu-content, #edu-pic, #me, 
 #goals, #hobbies, #award, #exp, #study, #volunteer, #program,
-#certificate, #profile-title, #profile1, #profile2, #profile3, #profile4, #profile5
-, #profile6, #profile7, #profile8, #profile9  {
+#certificate, #project-title, #s_project1, #s_project2, #s_project3, #s_project4, #s_project5
+, #s_project6, #s_project7, #s_project8, #s_project9, #s_projects_title, #d_projects_title, #o_projects_title  {
     transition: all 1s ease-out;
 }
