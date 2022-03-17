@@ -345,31 +345,32 @@ body {
 } 
 
 .bord1 {
-    background-image: url(../images/projects1.jpg);
+    background-image: url(../images/projects1.gif);
+    background-size: auto;
 }
 .bord2 {
-    background-image: url(../images/projects2.jpg);
+    background-image: url(../images/projects2.gif);
 }
 .bord3 {
-    background-image: url(../images/projects3.jpg);
+    background-image: url(../images/projects3.gif);
 }
 .bord4 {
-    background-image: url(../images/projects4.jpg);
+    background-image: url(../images/projects4.gif);
 }
 .bord5 {
-    background-image: url(../images/projects5.jpg);
+    background-image: url(../images/projects5.gif);
 }
 .bord6 {
-    background-image: url(../images/projects6.jpg);
+    background-image: url(../images/projects6.gif);
 }
 .bord7 {
-    background-image: url(../images/projects7.jpg);
+    background-image: url(../images/projects7.gif);
 }
 .bord8 {
-    background-image: url(../images/projects1.jpg);
+    background-image: url(../images/projects1.gif);
 }
 .bord9 {
-    background-image: url(../images/projects2.jpg);
+    background-image: url(../images/projects2.gif);
 }
 .bord {
     position: relative;
@@ -395,7 +396,7 @@ body {
 }
 .view {
     width: 100%;
-    height: 250px;
+    height: 180px;
     background-color: rgba(0, 0, 0, 0);
     transition: all 0.2s ease-out;
 }
