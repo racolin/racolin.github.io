@@ -197,9 +197,30 @@ body {
 #menu li:hover a {
     color: #fff;
 }
+
+#menu div li {
+    position: relative;
+} 
+
+#menu div li:after {
+    content: "";
+    position: absolute;
+    top: -5px;
+    left: 0;
+    width: 0%;
+    height: 3px;
+    background-color: #458798;
+} 
+
+#menu div li:hover:after {
+    transition: all 0.5s ease-out;
+    width: 100%;
+}
+
 .m2 {
     margin-left: 25%;
 }
+
 .m3 {
     margin-left: 50%;
 }  
@@ -337,8 +358,8 @@ body {
 .english .progress .progress-bar {
     background-color: black;
 } 
-.documents .progress .progress-bar {
-    background-color: #50782b;
+.oop .progress .progress-bar {
+    background-color: #479F9B;
 } 
 .searches .progress .progress-bar {
     background-color: #1DB6E7;
@@ -378,27 +399,62 @@ body {
     overflow: hidden;
     border-radius: 4%;
 }
+
 .bord:hover .view {
-    background-color: rgba(0, 0, 0, 0.6);
+    clip-path: circle(100% at 50% 50%);
 }
+
 .bord:hover .view p {
-    padding-top: 70px;
     opacity: 1;
+    visibility: visible;
 }
+
 .view p {
+    padding-top: 50px;
     opacity: 0;
-    padding-top: 0px;
     text-align: center;
     font-size: 56px;
     font-family: JockeyOne-Regular;
-    color: white;
-    transition: all 0.6s ease-out;
+    color: black;
+    visibility: hidden;
+    transition: all 1s ease-out;
 }
+
+.view::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: #E3819B;
+    position: absolute;
+    transform: translate(50%, 120%) rotate(45deg);
+    transition: all 0.8s ease-out;
+}
+
+.bord:hover .view::after {
+    transform: translate(-40%, -50%) rotate(45deg);
+}
+
+.view::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: #DC7842;
+    position: absolute;
+    transform: translate(-45%, -200%) rotate(45deg);
+    transition: all 0.8s ease-out;
+}
+
+.bord:hover .view::before {
+    transform: translate(40%, -30%) rotate(45deg);
+}
+
 .view {
+    clip-path: circle(0% at 50% 50%);
+    background-color: rgba(122, 214, 208, 0.6);
     width: 100%;
     height: 180px;
-    background-color: rgba(0, 0, 0, 0);
-    transition: all 0.2s ease-out;
+    transition: all 1s ease-out;
+    position: relative;
 }
 .projects-item a {
     text-decoration: none;
@@ -538,7 +594,7 @@ label {
     }
 }
 #title-skills, #html-css-js, #php, #python, #bs, #pts, #jquery, #teamwork,
-#english, #searches, #doc, #edu, #edu-content, #edu-pic, #me, 
+#english, #searches, #oop, #edu, #edu-content, #edu-pic, #me, 
 #goals, #hobbies, #award, #exp, #study, #volunteer, #program,
 #certificate, #project-title, #s_project1, #s_project2, #s_project3, #s_project4, #s_project5
 , #s_project6, #s_project7, #s_project8, #s_project9, #s_projects_title, #d_projects_title, #o_projects_title  {
