@@ -79,8 +79,8 @@ square.forEach(element => {
     child.setAttribute("style", property);
     document.getElementById("circles").appendChild(child);
 });
-listID_X_left = ['php', 'html-css-js', 'pts', 'teamwork', 'searches', 'edu-pic', 'goals', 'award', 'volunteer'];
-listID_X_right = ['python', 'bs', 'jquery', 'english', 'oop', 'edu-content', 'hobbies', 'study', 'program'];
+listID_X_left = ['android', 'database', 'teamwork', 'searches', 'edu-pic', 'goals', 'award', 'volunteer'];
+listID_X_right = ['web', 'oop', 'figma', 'english', 'edu-content', 'hobbies', 'study', 'program'];
 
 
 listID_Y_top = ['title-skills', 'edu', 'me','project-title'];

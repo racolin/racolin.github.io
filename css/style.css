@@ -230,9 +230,27 @@ body {
     overflow: hidden;
 }
 
-.web_title {
-    margin: 30px;
+.app_detail {
+    padding-left: 30px;
+}
+
+.project_title {
     font-weight: 600;
+}
+
+.app_detail h3 {
+    margin-top: 20px;
+    width: max-content;
+    color: white;
+    background-color: #1B1F48;
+    border-radius: 15px;
+    padding: 5px 10px 5px 10px;
+    font-weight: 800;
+}
+
+.app_detail p {
+    font-size: 18px;
+    font-weight: 500;
 }
 
 .title {
@@ -328,8 +346,8 @@ body {
 .fa-html5 {
     color: #f1662a;
 }
-.html-css-js .progress .progress-bar {
-    background-color: #353535;
+.database .progress .progress-bar {
+    background-color: #4CA8E5;
 }
 .fa-search {
     color: #1db6e7;
@@ -337,11 +355,11 @@ body {
 .fa-newspaper-o {
     color: #899f50;
 }
-.php .progress .progress-bar {
-    background-color: #462bab;
+.android .progress .progress-bar {
+    background-color: #68A541;
 } 
-.python .progress .progress-bar {
-    background-color: #a18508;
+.web .progress .progress-bar {
+    background-color: #505765;
 } 
 .bootstrap .progress .progress-bar {
     background-color: #7541C2;
@@ -349,8 +367,8 @@ body {
 .photoshop .progress .progress-bar {
     background-color: #1B1F48;
 } 
-.jquery .progress .progress-bar {
-    background-color: #2DB2D3;
+.figma .progress .progress-bar {
+    background-color: #EE7A69;
 } 
 .teamwork .progress .progress-bar {
     background-color: #5B919D;
@@ -366,32 +384,14 @@ body {
 } 
 
 .bord1 {
-    background-image: url(../images/projects1.gif);
+    background-image: url(../images/projects1.png);
     background-size: auto;
 }
 .bord2 {
-    background-image: url(../images/projects2.gif);
+    background-image: url(../images/projects2.png);
 }
 .bord3 {
-    background-image: url(../images/projects3.gif);
-}
-.bord4 {
-    background-image: url(../images/projects4.gif);
-}
-.bord5 {
-    background-image: url(../images/projects5.gif);
-}
-.bord6 {
-    background-image: url(../images/projects6.gif);
-}
-.bord7 {
-    background-image: url(../images/projects7.gif);
-}
-.bord8 {
-    background-image: url(../images/projects1.gif);
-}
-.bord9 {
-    background-image: url(../images/projects2.gif);
+    background-image: url(../images/projects3.png);
 }
 .bord {
     position: relative;
@@ -593,7 +593,7 @@ label {
         width: 3px;
     }
 }
-#title-skills, #html-css-js, #php, #python, #bs, #pts, #jquery, #teamwork,
+#title-skills, #database, #android, #web, #bs, #pts, #figma, #teamwork,
 #english, #searches, #oop, #edu, #edu-content, #edu-pic, #me, 
 #goals, #hobbies, #award, #exp, #study, #volunteer, #program,
 #certificate, #project-title, #s_project1, #s_project2, #s_project3, #s_project4, #s_project5
