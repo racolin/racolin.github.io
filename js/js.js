@@ -83,13 +83,12 @@ listID_X_left = ['android', 'database', 'teamwork', 'searches', 'edu-pic', 'goal
 listID_X_right = ['web', 'oop', 'figma', 'english', 'edu-content', 'hobbies', 'study', 'program'];
 
 
-listID_Y_top = ['title-skills', 'edu', 'me','project-title'];
-listID_Y_top_little = ['s_project1', 's_project2', 's_project3', 's_project4', 's_project5', 's_project6', 's_project7', 
-'s_project8', 's_project9', 'd_project1', 'd_project2', 's_projects_title', 'd_projects_title', 'o_projects_title'];
+listID_Y_top = ['title-skills', 'edu', 'me','project-title', 'busmap', 'foody', 'beauty_online'];
+listID_Y_top_little = ['s_project1', 's_project2', 's_project3', 's_projects_title', 'd_projects_title', 'n_projects_title'];
 function scr() {
     handle_temp(listID_X_left, "transform: translate(0); opacity: 1;", "transform: translate(-200px); opacity: 0;");
     handle_temp(listID_X_right, "transform: translate(0); opacity: 1;", "transform: translate(200px); opacity: 0;");
-    handle_temp(listID_Y_top, "transform: translateY(0); opacity: 1;", "transform: translateY(-100px); opacity: 0;");
+    handle_temp(listID_Y_top, "transform: translateY(0); opacity: 1;", "transform: translateY(-50px); opacity: 0;");
     handle_temp(listID_Y_top_little, "transform: translateY(0); opacity: 1;", "transform: translateY(-20px); opacity: 0;");
 }
 function handle_temp(listel, style1, style2) {
