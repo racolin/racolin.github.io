@@ -79,8 +79,8 @@ square.forEach(element => {
     child.setAttribute("style", property);
     document.getElementById("circles").appendChild(child);
 });
-listID_X_left = ['android', 'database', 'teamwork', 'searches', 'edu-pic', 'goals', 'award', 'volunteer'];
-listID_X_right = ['web', 'oop', 'figma', 'english', 'edu-content', 'hobbies', 'study', 'program'];
+listID_X_left = ['android', 'teamwork', 'oop', 'searches', 'edu-pic', 'goals', 'award'];
+listID_X_right = ['web', 'figma', 'english', 'database', 'edu-content', 'hobbies', 'study'];
 
 
 listID_Y_top = ['title-skills', 'edu', 'me','project-title', 'busmap', 'foody', 'beauty_online'];
@@ -104,3 +104,21 @@ function handle_scroll(el, style1, style2) {
         el.setAttribute("style", style2);
     }
 }
+
+// var bgNorons = document.querySelectorAll(".bg-noron").forEach((bg) => {
+//     var amount = bg.getAttribute("nr-amount");
+//     var color = bg.getAttribute("nr-color");
+//     var speedMin = bg.getAttribute("nr-speed-min");
+//     var speedMax = bg.getAttribute("nr-speed-max");
+//     var noronSpace = document.createElement("div");
+//     noronSpace.classList.add("bg-noron-space");
+//     bg.append(noronSpace);
+//     for (var j = 0; j < amount; j++) {
+//         var item = document.createElement("div");
+//         item.classList.add("item");
+//         item.style.left = Math.floor(Math.random() * 1000) + "px";
+//         item.style.top = Math.floor(Math.random() * 300) + "px";
+//         item.style.backgroundColor = color;
+//         noronSpace.append(item);
+//     }
+// })

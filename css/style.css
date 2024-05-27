@@ -507,6 +507,30 @@ label {
 .bg-footer .title h1 {
     color: #fff;
 }
+
+.follow-icon a i {
+    font-size: 56px;
+}
+.follow-icon .github a i {
+    color: white;
+}
+.follow-icon .linkedin a i {
+    color: #0a66c2;
+    position: relative;
+    z-index: 999;
+}
+.follow-icon .linkedin a i::after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40px;
+    height: 40px;
+    background-color: white;
+}
+
 .footer-item h1 {
     font-size: 30px;
     font-family: OpenSans-Bold;
@@ -601,3 +625,18 @@ label {
 #busmap, #foody, #s_projects_title, #d_projects_title, #n_projects_title  {
     transition: all 1s ease-out;
 }
+
+/* .bg-noron {
+}
+.bg-noron-space {
+    width: 100%;
+    height: 100%;
+    z-index: 99;
+    background-color: blue;
+}
+.bg-noron .item {
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    border-radius: 2px;
+} */
